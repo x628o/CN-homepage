@@ -1,0 +1,138 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: monospace; 
+    text-align: center;
+    background: whitesmoke;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 17px;
+    align-items: center;
+    background: #1f2937;
+}
+
+.header ul {
+    display: flex;
+    gap: 52px;
+}
+
+.header li {
+    list-style-type: none;
+}
+
+.header li a {
+    text-decoration: none;
+}
+
+.header img {
+    height: 87px;
+    width: 169px;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 32px;
+    background: #1f2937;
+}
+
+.top img {
+    height: 150px;
+    width: auto;
+    
+}
+
+.titlezero {
+    font-weight: 1000;
+    text-align: left;
+    flex-basis: 300px;
+}
+
+.titlezero h1 {
+    color: #F9FAF8;
+}
+
+.zeromeat {
+    font-weight: 500;
+    color: whitesmoke;
+}
+
+.modal {
+    background:#3882F6;
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+
+
+.title {
+    font-weight: 900;
+    text-align: center;
+    font-size: 28px;
+    background: whitesmoke;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    gap: 52px;
+    background: whitesmoke;
+}
+
+
+
+.container .box img {
+    height: 100px;
+    width: 100px;
+}
+
+.box {
+    text-align: center;
+   
+}
+
+.quotes {
+ 
+    background: whitesmoke;
+}
+
+.quotes p {
+    color: #1f2937;
+}
+
+.sign {
+    display: flex;
+    align-items: center;
+    margin: 25px 200px;
+    background: skyblue;
+    justify-content: center;
+
+}
+
+.bananer {
+   
+    flex-basis: 300px;
+}
+
+
+.bottom {
+    background: #1f2937;
+    bottom: 0;
+    height: 2.5rem;
+    position: fixed;
+    width: 100%;
+}
+
+.bottom p {
+    display:flex;
+    justify-content:center;
+    text-align: center;
+}
